@@ -1,0 +1,175 @@
+-- Script made by Depth (@jollyrancers12) on ROBLOX.
+wait(1)
+local StarterGui = game:GetService("StarterGui")
+	StarterGui:SetCore("SendNotification",{
+		Title = "Credits",
+		Text = "Credits: Depth (liminal.gg owner)",
+		Duration = 5
+	})
+
+function sandbox(var,func)
+	local env = getfenv(func)
+	local newenv = setmetatable({},{
+		__index = function(self,k)
+			if k=="script" then
+				return var
+			else
+				return env[k]
+			end
+		end,
+	})
+	setfenv(func,newenv)
+	return func
+end
+cors = {}
+mas = Instance.new("Model",game:GetService("Lighting"))
+Tool0 = Instance.new("Tool")
+MeshPart1 = Instance.new("MeshPart")
+LocalScript2 = Instance.new("LocalScript")
+Sound3 = Instance.new("Sound")
+Tool4 = Instance.new("Tool")
+MeshPart5 = Instance.new("MeshPart")
+LocalScript6 = Instance.new("LocalScript")
+Sound7 = Instance.new("Sound")
+Tool8 = Instance.new("Tool")
+MeshPart9 = Instance.new("MeshPart")
+LocalScript10 = Instance.new("LocalScript")
+Sound11 = Instance.new("Sound")
+Tool12 = Instance.new("Tool")
+MeshPart13 = Instance.new("MeshPart")
+LocalScript14 = Instance.new("LocalScript")
+Sound15 = Instance.new("Sound")
+Tool16 = Instance.new("Tool")
+MeshPart17 = Instance.new("MeshPart")
+LocalScript18 = Instance.new("LocalScript")
+Sound19 = Instance.new("Sound")
+Tool0.Name = "Bonnie Plush"
+Tool0.Parent = mas
+MeshPart1.Name = "Handle"
+MeshPart1.Parent = Tool0
+MeshPart1.CFrame = CFrame.new(6.48457718, 2.44254684, -94.694046, 0, 0, -1, 0, 1, 0, 1, 0, 0)
+MeshPart1.Orientation = Vector3.new(0, -90, 0)
+MeshPart1.Position = Vector3.new(6.484577178955078, 2.442546844482422, -94.69404602050781)
+MeshPart1.Rotation = Vector3.new(0, -90, 0)
+MeshPart1.Size = Vector3.new(3.388089656829834, 4.893377780914307, 2.830843448638916)
+MeshPart1.TextureID = "rbxassetid://507608428"
+LocalScript2.Parent = Tool0
+table.insert(cors,sandbox(LocalScript2,function()
+local tool = script.Parent
+local sound = script.Parent.Sound
+
+tool.Activated:Connect(function()
+	sound:Play()
+	
+end)
+end))
+Sound3.Parent = Tool0
+Sound3.RollOffMode = Enum.RollOffMode.InverseTapered
+Sound3.SoundId = "rbxassetid://5053384572"
+Sound3.Volume = 1.25
+Tool4.Name = "Chica Plush"
+Tool4.Parent = mas
+MeshPart5.Name = "Handle"
+MeshPart5.Parent = Tool4
+MeshPart5.CFrame = CFrame.new(6.77479744, 2.08121872, -86.6727448, 0, 0, -1, 0, 1, 0, 1, 0, 0)
+MeshPart5.Orientation = Vector3.new(0, -90, 0)
+MeshPart5.Position = Vector3.new(6.774797439575195, 2.081218719482422, -86.67274475097656)
+MeshPart5.Rotation = Vector3.new(0, -90, 0)
+MeshPart5.Size = Vector3.new(3.307210922241211, 4.158816814422607, 2.0279390811920166)
+MeshPart5.TextureID = "rbxassetid://511715774"
+LocalScript6.Parent = Tool4
+table.insert(cors,sandbox(LocalScript6,function()
+local tool = script.Parent
+local sound = script.Parent.Sound
+
+tool.Activated:Connect(function()
+	sound:Play()
+	
+end)
+end))
+Sound7.Parent = Tool4
+Sound7.RollOffMode = Enum.RollOffMode.InverseTapered
+Sound7.SoundId = "rbxassetid://5053384572"
+Sound7.Volume = 1.25
+Tool8.Name = "Foxy Plush"
+Tool8.Parent = mas
+MeshPart9.Name = "Handle"
+MeshPart9.Parent = Tool8
+MeshPart9.CFrame = CFrame.new(6.76646805, 2.00992966, -82.9322968, 0, 0, -1, 0, 1, 0, 1, 0, 0)
+MeshPart9.Orientation = Vector3.new(0, -90, 0)
+MeshPart9.Position = Vector3.new(6.766468048095703, 2.009929656982422, -82.93229675292969)
+MeshPart9.Rotation = Vector3.new(0, -90, 0)
+MeshPart9.Size = Vector3.new(2.894026279449463, 4.015632152557373, 2.149235248565674)
+MeshPart9.TextureID = "rbxassetid://511716563"
+LocalScript10.Parent = Tool8
+table.insert(cors,sandbox(LocalScript10,function()
+local tool = script.Parent
+local sound = script.Parent.Sound
+
+tool.Activated:Connect(function()
+	sound:Play()
+	
+end)
+end))
+Sound11.Parent = Tool8
+Sound11.RollOffMode = Enum.RollOffMode.InverseTapered
+Sound11.SoundId = "rbxassetid://5053384572"
+Sound11.Volume = 1.25
+Tool12.Name = "Freddy Plush"
+Tool12.Parent = mas
+MeshPart13.Name = "Handle"
+MeshPart13.Parent = Tool12
+MeshPart13.CFrame = CFrame.new(6.52965164, 2.11344528, -79.3091278, 0, 0, -1, 0, 1, 0, 1, 0, 0)
+MeshPart13.Orientation = Vector3.new(0, -90, 0)
+MeshPart13.Position = Vector3.new(6.529651641845703, 2.113445281982422, -79.30912780761719)
+MeshPart13.Rotation = Vector3.new(0, -90, 0)
+MeshPart13.Size = Vector3.new(3.306548595428467, 4.2235612869262695, 2.219137191772461)
+MeshPart13.TextureID = "rbxassetid://511716115"
+LocalScript14.Parent = Tool12
+table.insert(cors,sandbox(LocalScript14,function()
+local tool = script.Parent
+local sound = script.Parent.Sound
+
+tool.Activated:Connect(function()
+	sound:Play()
+	
+end)
+end))
+Sound15.Parent = Tool12
+Sound15.RollOffMode = Enum.RollOffMode.InverseTapered
+Sound15.SoundId = "rbxassetid://5053384572"
+Sound15.Volume = 1.25
+Tool16.Name = "Mangle Plush"
+Tool16.Parent = mas
+MeshPart17.Name = "Handle"
+MeshPart17.Parent = Tool16
+MeshPart17.CFrame = CFrame.new(6.5044136, 1.94449997, -90.4958038, 0, 0, -1, 0, 1, 0, 1, 0, 0)
+MeshPart17.Orientation = Vector3.new(0, -90, 0)
+MeshPart17.Position = Vector3.new(6.504413604736328, 1.9444999694824219, -90.49580383300781)
+MeshPart17.Rotation = Vector3.new(0, -90, 0)
+MeshPart17.Size = Vector3.new(3.7336220741271973, 3.8848471641540527, 2.8582489490509033)
+MeshPart17.TextureID = "rbxassetid://525185923"
+LocalScript18.Parent = Tool16
+table.insert(cors,sandbox(LocalScript18,function()
+local tool = script.Parent
+local sound = script.Parent.Sound
+
+tool.Activated:Connect(function()
+	sound:Play()
+	
+end)
+end))
+Sound19.Parent = Tool16
+Sound19.RollOffMode = Enum.RollOffMode.InverseTapered
+Sound19.SoundId = "rbxassetid://5053384572"
+Sound19.Volume = 1.25
+for i,v in pairs(mas:GetChildren()) do
+	v.Parent = game:GetService("Players").LocalPlayer.Backpack
+	pcall(function() v:MakeJoints() end)
+end
+mas:Destroy()
+for i,v in pairs(cors) do
+	spawn(function()
+		pcall(v)
+	end)
+end
